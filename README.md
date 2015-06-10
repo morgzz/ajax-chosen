@@ -14,11 +14,11 @@ This plugin exposes a new jQuery function named `ajaxChosen` that we call on a `
 
 The second argument is a callback that tells the plugin what HTML `option` elements to make. It is passed the data returned from the ajax call, and you have to return an array of objects for which each item has a `value` property corresponding to the HTML `option` elements' `value` attribute, and a `text` property corresponding to the text to display for each option. In other words:
 
-	[{"value": 3, "text": "Ohio"}]
+	[{"value": 3, "text": "California"}]
 
 becomes:
 
-	<option value="3">Ohio</option>
+	<option value="3">California</option>
 
 or for grouping:
 
@@ -60,7 +60,7 @@ Add
 
 to 
 
-	.chzn-container .chzn-results .group-result {
+	.chosen-container .chosen-results .group-result {
 
 class
 
