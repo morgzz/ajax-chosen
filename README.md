@@ -1,5 +1,9 @@
 # Ajax-Chosen
 
+Morgzz: This was forked from this stellar developer: meltingice/ajax-chosen
+I plan to update the library to work with the newer version of Chosen.
+Small and impressing changes :D. Thank you.
+
 This project is an addition to the excellent [Chosen jQuery plugin](https://github.com/harvesthq/chosen) that makes HTML input forms more friendly.  Chosen adds search boxes to `select` HTML elements, so I felt it could use the addition of ajax autocomplete for awesomely dynamic forms.
 
 This script bootstraps the existing Chosen plugin without making any modifications to the original code. Eventually, I would love to see this functionality built-in to the library, but until then, this seems to work pretty well.
